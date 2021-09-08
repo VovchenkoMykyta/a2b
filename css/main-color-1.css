@@ -68,7 +68,7 @@ a.post-author-name,
     BACKGROUND COLOR
 \*------------------------------------*/
 .admin-controls a.mdl-button--accent.mdl-button--raised,
-a.mainNav-logo,
+a.mainNav-logo, .struc-section-title h2:before,
 #topNav .nav-body .login-form-button,
 #topNav .navbar-brand,
 .header-slider-content a.mdl-button--accent.mdl-button--raised,

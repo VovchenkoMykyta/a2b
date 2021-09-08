@@ -1339,6 +1339,257 @@ td, th {
     box-sizing: border-box
 }
 
+#structure .struc-section-title{
+    padding-top: 75px;
+}
+#team .who-section-title h2{
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#who .who-section-title h2{
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#who .who-section-title hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+
+.who-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#structure .struc-section-title hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+.struc-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.struc-section-title h2{
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#investor .row{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#investor .mdl-card{
+    margin-top: 30px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#investor .mdl-card h2{
+    color: #000000;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#investor .mdl-card hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+.row .mdl-card{
+    display: flex;
+}
+
+#business .row{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#business .mdl-card{
+    margin-top: 30px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#business .mdl-card h2{
+    color: #000000;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+#business .mdl-card hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#business div.col-md-6 img{
+    width: 9%;
+}
+
+div#strategy .row{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#strategy .mdl-card{
+    margin-top: 30px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+div#strategy .mdl-card h2{
+    color: #000000;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div#strategy .mdl-card hr {
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+#strategy .fond-strutege{
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#strategy .investor-item h4 img{
+    width: 290px;
+}
+
+div#strategy .project-item-content-left h4 img{
+    width: 10%;
+}
+
+div#strategy1 .stratege1{
+    display: flex;
+}
+
+div#strategy1 .stratege1 .col-md-3 section{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-height: 332px;
+}
+
+div#strategy1 .stratege1 .col-md-3 section h4 img{
+    width: 65px;
+}
+
+div#strategy1 .row{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#strategy1 .mdl-card{
+    margin-top: 30px;
+    min-height: 0;
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#strategy1 .mdl-card h2{
+    color: #000000;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div#strategy1 .mdl-card h3{
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+div#strategy1 .mdl-card hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#strategy2 .row{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#strategy2 .mdl-card{
+    margin-top: 30px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    text-align: center;
+}
+
+div#strategy2 .mdl-card h2{
+    color: #000000;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div#strategy2 .mdl-card hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#strategy2 .stratege2{
+    display: flex;
+}
+
+div#strategy2 .stratege2 div.img{
+    display: flex;
+    justify-content: flex-end;
+}
+
 :after, :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
