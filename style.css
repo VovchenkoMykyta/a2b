@@ -3338,3 +3338,361 @@ a.post-author-name {
     padding-left: 0;
     padding-right: 0;
 }
+
+div#business div.items{
+    line-height: 2;
+    font-size: 32px;
+    /*max-width: 60%;*/
+    /*margin: 0 50px;*/
+}
+
+div#business section.project-item-content{
+    max-width:70%;
+    /*max-height: 310px;*/
+}
+div#business section.project-item-content h4{
+    min-width: 600px;
+    font-size: 24px;
+}
+div#business section.second h4{
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+
+
+/*MEDIA*/
+
+@media screen and (min-width: 1201px) {
+    div#business>div.container{
+        box-sizing: border-box;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1200px ) {
+
+    nav#topNav2 div.container{
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+    }
+
+    nav#topNav2 div#topNavbar2 ul li.item-header{
+        display: none;
+    }
+
+    div#structure div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#who>div.container div.team-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#business>div.container{
+        box-sizing: border-box;
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    nav#topNav2 div.container{
+        display: flex;
+        justify-content: space-around;
+        width: 98%;
+    }
+
+    div#business>div.container{
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    div#business>div.container .investor-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div#business>div.container .project-item-content{
+        width: 95%;
+    }
+    div#business>div.container .project-item-content img{
+        width: 60px;
+    }
+
+    div#business>div.container .project-item-content h4{
+        font-size: 24px;
+        width: 95%;
+    }
+    div#business section.project-item-content{
+        max-width:70%
+    }
+
+    div#strategy div.fond-strutege{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    div#strategy1 div.mdl-card{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#strategy1 div.mdl-card h3{
+        width: 95%;
+        text-align: center;
+    }
+
+    div#strategy1 div.stratege1{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    div#strategy2 div.mdl-card{
+        width: 95%;
+    }
+
+    div#strategy2 div.mdl-card h2{
+        width: 95%;
+    }
+    div#strategy2 div.stratege2{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    div#strategy2 .stratege2 div.img{
+        justify-content: center;
+    }
+    div#projects div#progects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+    div#projects div#progects1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    div#contacts div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        padding: 0 25px;
+    }
+    div#contacts div.row div.map{
+        padding: 0 20px;
+    }
+    div#contacts div.row iframe{
+        width: 750px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body{
+        max-width: 600px;
+    }
+    nav#topNav2 div.container{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    div#business>div.container{
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    div#business>div.container .investor-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div#business>div.container .project-item-content{
+        width: 95%;
+    }
+    div#business>div.container .project-item-content img{
+        width: 60px;
+    }
+
+    div#business>div.container .project-item-content h4{
+        font-size: 24px;
+        width: 95%;
+    }
+
+    div#strategy div.fond-strutege{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    div#strategy1 div.mdl-card{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#strategy1 div.mdl-card h3{
+        width: 95%;
+        text-align: center;
+    }
+
+    div#strategy1 div.stratege1{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    div#strategy2 div.mdl-card{
+        width: 95%;
+    }
+
+    div#strategy2 div.mdl-card h2{
+        width: 95%;
+    }
+    div#strategy2 div.stratege2{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    div#strategy2 .stratege2 div.img{
+        justify-content: center;
+    }
+    div#projects div#progects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+    div#projects div#progects1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    div#contacts div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+    div#contacts div.row div.map{
+        padding: 0 20px;
+    }
+    div#contacts div.row iframe{
+        width: 750px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body{
+        max-width: 450px;
+    }
+    nav#topNav2 div.container{
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+    }
+
+    div#business>div.container{
+        box-sizing: border-box;
+        max-width: 200px;
+    }
+
+    div#business>div.container .investor-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#business>div.container .project-item-content img{
+        width: 40px;
+    }
+
+    div#business>div.container .project-item-content h4{
+        font-size: 24px;
+        width: 370px;
+    }
+
+    div#strategy div.fond-strutege{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+    }
+
+    div#strategy1 div.mdl-card{
+        width: 370px;
+    }
+
+    div#strategy1 div.mdl-card h3{
+        width: 370px;
+    }
+
+    div#strategy1 div.stratege1{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+    }
+
+    div#strategy2 div.mdl-card{
+        width: 370px;
+    }
+
+    div#strategy2 div.mdl-card h2{
+        width: 370px;
+    }
+    div#strategy2 div.stratege2{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+    }
+    div#strategy2 .stratege2 div.img{
+        justify-content: center;
+    }
+    div#projects div#progects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+    }
+    div#projects div#progects1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+    }
+
+    div#contacts{
+        max-width:96%;
+    }
+
+    div#contacts div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 370px;
+        font-size: 14px;
+    }
+    div#contacts div.row iframe{
+        width: 370px;
+        height: 150px;
+    }
+}

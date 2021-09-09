@@ -1590,6 +1590,139 @@ div#strategy2 .stratege2 div.img{
     justify-content: flex-end;
 }
 
+div#projects .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div#projects div#progects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#projects .invest-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div#projects .invest-projects hr{
+    width: 50px;
+    height: 2px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: #3D245D;
+}
+
+div#progects{
+    margin-bottom: 15px;
+}
+
+div#progects div.mdl-card__title-text img{
+    width: 400px;
+    height: 300px;
+}
+
+div#progects .mdl-card__supporting-text h2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+div#progects .mdl-card__supporting-text h4{
+    font-size: 14px;
+    line-height: 1;
+}
+
+div#progects .mdl-card__supporting-text{
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#progects .mdl-card__supporting-text hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#projects div#progects1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#progects1 div.mdl-card__title-text img{
+    width: 400px;
+    height: 300px;
+}
+
+div#progects1 .mdl-card__supporting-text h2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+div#progects1 .mdl-card__supporting-text h4{
+    font-size: 14px;
+    line-height: 1;
+}
+
+div#progects1 .mdl-card__supporting-text{
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#progects1 .mdl-card__supporting-text hr{
+    width: 50px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#contacts div.contact-window>div.who-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#contacts div.contact-window>div.who-section-title>hr{
+    width: 75px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
+div#contacts div.col-md-8>iframe{
+    width: 1050px;
+    height: 800px;
+}
+
+div#contacts .col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#contacts .col-md-4 h4{
+    font-weight: 600;
+}
+
+div#contacts .col-md-4 h5{
+    font-size: 15px;
+}
+
+div#contacts .col-md-4>hr{
+    width: 75px;
+    height: 2px;
+    background-color: #3D245D;
+}
+
 :after, :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
