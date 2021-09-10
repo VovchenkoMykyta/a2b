@@ -1459,7 +1459,7 @@ td, th {
 }
 
 div#business div.col-md-6 img{
-    width: 9%;
+    /*width: 9%;*/
 }
 
 div#strategy .row{
@@ -2245,7 +2245,7 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    /*padding-left: 15px*/
 }
 
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -3717,6 +3717,10 @@ select[multiple].input-lg, textarea.input-lg {
     .form-inline .has-feedback .form-control-feedback {
         top: 0
     }
+    div#business .row>div{
+        display: flex;
+        align-items: center;
+    }
 }
 
 .form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
@@ -5082,6 +5086,11 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
         background-image: none
     }
+    div#business .row>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -5175,6 +5184,14 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
     .navbar-form .form-group:last-child {
         margin-bottom: 0
+    }
+
+    #investor .row>div div.instetor-item{
+        width: 100%;
+    }
+    #investor .row>div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
