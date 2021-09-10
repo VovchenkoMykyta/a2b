@@ -102,6 +102,8 @@ html, body {
 }
 body {
     color: #737373;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -884,7 +886,6 @@ a.mainNav-logo {
     }
 }
 .service-container{
-    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1360,9 +1361,12 @@ a.section-footer-link {
     10. PROJECTS AREA
 \*------------------------------------*/
 #projects {
-    position: relative;
+    /*position: relative;*/
     padding: 60px 0 100px;
     background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-item .mdl-card {
@@ -1383,7 +1387,7 @@ a.section-footer-link {
 }
 
 .project-item-content>h4>img{
-    width: 10%;
+    width: 50px;
 }
 .project-item h2 {
     font-size: 24px;
@@ -2053,8 +2057,9 @@ a.blog-item-comments-link:focus {
 .contact-window {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 40px 0 80px;
-    width: auto;
+    width: fit-content;
     min-height: 0;
+    margin: 0 auto;
 }
 
 .contact-address h2 {
@@ -3188,7 +3193,9 @@ a.post-author-name {
     a.section-footer-link {
         margin-top: 40px;
     }
-    
+    .project-item-content>h4>img{
+        width: 25px;
+    }
     .container>.navbar-collapse {
         margin-right: 0;
         margin-left: 0;
@@ -3342,22 +3349,24 @@ a.post-author-name {
 div#business div.items{
     line-height: 2;
     font-size: 32px;
+    width: 50%;
     /*max-width: 60%;*/
     /*margin: 0 50px;*/
 }
 
 div#business section.project-item-content{
-    max-width:70%;
+    /*max-width:70%;*/
     /*max-height: 310px;*/
 }
 div#business section.project-item-content h4{
-    min-width: 600px;
-    font-size: 24px;
+    /*min-width: 600px;*/
+    /*font-size: 24px;*/
 }
-div#business section.second h4{
+
+div#business .row>div{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    line-height: 3;
 }
 
 
@@ -3395,7 +3404,6 @@ div#business section.second h4{
 
     div#business>div.container{
         box-sizing: border-box;
-        width: 1000px;
     }
 }
 
@@ -3408,27 +3416,27 @@ div#business section.second h4{
 
     div#business>div.container{
         box-sizing: border-box;
-        max-width: 100%;
+        /*max-width: 100%;*/
     }
-    div#business>div.container .investor-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    div#business>div.container .project-item-content{
-        width: 95%;
-    }
+    /*div#business>div.container .investor-item{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
+    /*div#business>div.container .project-item-content{*/
+    /*    width: 95%;*/
+    /*}*/
     div#business>div.container .project-item-content img{
         width: 60px;
     }
 
     div#business>div.container .project-item-content h4{
-        font-size: 24px;
-        width: 95%;
+        /*font-size: 24px;*/
+        width: 100%;
     }
-    div#business section.project-item-content{
-        max-width:70%
-    }
+    /*div#business section.project-item-content{*/
+    /*    max-width:70%*/
+    /*}*/
 
     div#strategy div.fond-strutege{
         box-sizing: border-box;
@@ -3475,28 +3483,22 @@ div#business section.second h4{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
     }
     div#projects div#progects1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
     }
 
     div#contacts div.row{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
-        padding: 0 25px;
+        /*width: 95%;*/
+        /*padding: 0 25px;*/
     }
     div#contacts div.row div.map{
         padding: 0 20px;
-    }
-    div#contacts div.row iframe{
-        width: 750px;
-        height: 420px;
     }
 }
 
@@ -3514,11 +3516,11 @@ div#business section.second h4{
         box-sizing: border-box;
         max-width: 100%;
     }
-    div#business>div.container .investor-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    /*div#business>div.container .investor-item{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
     div#business>div.container .project-item-content{
         width: 95%;
     }
@@ -3576,13 +3578,11 @@ div#business section.second h4{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
     }
     div#projects div#progects1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
     }
 
     div#contacts div.row{
@@ -3594,32 +3594,25 @@ div#business section.second h4{
     div#contacts div.row div.map{
         padding: 0 20px;
     }
-    div#contacts div.row iframe{
-        width: 750px;
-        height: 420px;
-    }
 }
 
 @media screen and (max-width: 550px) {
-    body{
-        max-width: 450px;
-    }
     nav#topNav2 div.container{
         display: flex;
         justify-content: space-around;
-        width: 400px;
+        /*width: 400px;*/
     }
 
     div#business>div.container{
         box-sizing: border-box;
-        max-width: 200px;
+        /*max-width: 200px;*/
     }
 
-    div#business>div.container .investor-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    /*div#business>div.container .investor-item{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
 
     div#business>div.container .project-item-content img{
         width: 40px;
@@ -3627,7 +3620,7 @@ div#business section.second h4{
 
     div#business>div.container .project-item-content h4{
         font-size: 24px;
-        width: 370px;
+        /*width: 370px;*/
     }
 
     div#strategy div.fond-strutege{
@@ -3671,28 +3664,21 @@ div#business section.second h4{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 370px;
     }
     div#projects div#progects1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 370px;
     }
 
-    div#contacts{
-        max-width:96%;
-    }
+    /*div#contacts{*/
+    /*    max-width:96%;*/
+    /*}*/
 
     div#contacts div.row{
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 370px;
         font-size: 14px;
-    }
-    div#contacts div.row iframe{
-        width: 370px;
-        height: 150px;
     }
 }
