@@ -916,7 +916,7 @@ div#progects>div{
 }
 
 div#progects1>div{
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .section-title p {
@@ -3206,6 +3206,9 @@ a.post-author-name {
     .project-item-content>h4>img{
         width: 25px;
     }
+    div#strategy .project-item-content-left h4 img{
+        width: 25px;
+    }
     .container>.navbar-collapse {
         margin-right: 0;
         margin-left: 0;
@@ -3248,11 +3251,11 @@ a.post-author-name {
     }
 
     div#investor .row div.items{
-        margin: 0 50px;
+        /*margin: 0 50px;*/
     }
 
     div#strategy .row div.investor-item{
-        margin: 0 50px;
+        /*margin: 0 50px;*/
     }
     div#contacts .col-md-4{
         width: 50%;
@@ -3370,7 +3373,7 @@ a.post-author-name {
 div#business div.items{
     line-height: 2;
     font-size: 32px;
-    width: 50%;
+    width: 100%;
     /*max-width: 60%;*/
     /*margin: 0 50px;*/
 }
@@ -3647,7 +3650,6 @@ div#business .row>div.second{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 370px;
     }
 
     div#strategy1 div.mdl-card{

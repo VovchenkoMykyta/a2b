@@ -1340,7 +1340,7 @@ td, th {
 }
 
 #structure .struc-section-title{
-    padding-top: 75px;
+    padding-top: 85px;
 }
 #team .who-section-title h2{
     position: relative;
@@ -1493,7 +1493,7 @@ div#strategy .mdl-card hr {
 }
 
 #strategy .fond-strutege{
-    width: 1700px;
+    width: 56%;
     display: flex;
     justify-content: space-around;
 }
@@ -1503,7 +1503,7 @@ div#strategy .mdl-card hr {
 }
 
 div#strategy .project-item-content-left h4 img{
-    width: 10%;
+    width: 50px;
 }
 
 div#strategy1 .stratege1{
@@ -3720,7 +3720,7 @@ select[multiple].input-lg, textarea.input-lg {
     }
     div#business .row>div{
         display: flex;
-        align-items: center;
+        /*align-items: center;*/
     }
 }
 
@@ -4959,7 +4959,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 @media (min-width: 768px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
         margin-right: 0;
-        margin-left: 0
+        margin-left: 20px
     }
 }
 
