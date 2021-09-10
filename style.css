@@ -910,6 +910,15 @@ a.mainNav-logo {
     left: 50%;
     margin-left: -25px;
 }
+
+div#progects>div{
+    margin: 20px 20px;
+}
+
+div#progects1>div{
+    margin: 0 20px;
+}
+
 .section-title p {
     margin-bottom: 70px;
 }
